@@ -1,0 +1,66 @@
+body {
+	background-image: url("./bg.gif");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#player {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.5);
+	padding: 4%;
+	border-radius: 2rem;
+	width: 30vw;
+	transform: translateY(6%);
+}
+
+#player img {
+	border-radius: 2rem;
+	width: 95%;
+}
+
+.controls  {
+	margin: 0;
+}
+
+button {
+	border: none;
+	background: none;
+	font-size: 3vw;
+	margin: 0;
+}
+
+#player * {
+	margin: 0;
+	color: white;
+}
+
+#title {
+	margin-top: 1rem;
+	font-family: consolas;
+}
+
+
+@media (max-width: 1000px){
+	#player {
+		width: 90vw;
+		margin: 0;
+		padding: 1rem;
+	}
+
+	#title {
+		font-size: 8vw;
+	}
+	
+	button {
+		font-size: 8vw;
+	}
+
+}

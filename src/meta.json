@@ -1,0 +1,28 @@
+[
+	{
+		"imglink": "/images/doraemon.jpg",
+		"muslink": "/music/doraemon.mp3",
+		"title": "DORAEMON"
+	},
+	{
+		"imglink": "/images/chhota.webp",
+		"muslink": "/music/chhota.mp3",
+		"title": "CHHOTA BHEEM"
+	},
+	{
+		"imglink": "/images/hattori.jpg",
+		"muslink": "/music/hattori.mp3",
+		"title": "HATTORI"
+	},
+	{
+		"imglink": "/images/shinchan.webp",
+		"muslink": "/music/shinchan.mp3",
+		"title": "SHINCHAN"
+	},
+	{
+		"imglink": "/images/motupatlu.jpg",
+		"muslink": "/music/motupatlu.mp3",
+		"title": "MOTU PATLU"
+	}
+	
+]
